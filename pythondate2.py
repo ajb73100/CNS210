@@ -9,7 +9,7 @@ url = 'https://www.python.org/downloads'
 
 parser = argparse.ArgumentParser(description = "this program is for finding versions of python based on there release dates")
 
-parser.add_argument('-r', required=False, metavar= "date", type=str, help="release date, capatilize first letter of each month, day, then year. example: April 6, 2013")
+parser.add_argument('-r', required=False, metavar= "date", type=str, help="release date, in quotations capatilize first letter of each month, day, then year. example: April 6, 2013")
 args = parser.parse_args()
 print (args.r)
 
