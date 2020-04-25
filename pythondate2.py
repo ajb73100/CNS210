@@ -13,7 +13,6 @@ parser.add_argument('-r', required=False, metavar= "date", type=str, help="relea
 args = parser.parse_args()
 print (args.r)
 
-args.r = "April 6, 2013"
 
 versions = []
 
